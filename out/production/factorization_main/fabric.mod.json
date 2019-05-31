@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "factorization",
+  "version": "${version}",
+
+  "name": "Factorization",
+  "description": "Factorization is a mod adding tech things to Minecraft.",
+  "authors": [
+    "Rambox"
+  ],
+  "contact": {
+    "homepage": "https://rambox.eu",
+    "sources": "https://github.com/ramboxeu/factorization"
+  },
+  "license": "MIT",
+  "icon": "",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "eu.rambox.factorization.Factorization"
+    ]
+  },
+  "mixins": [ ],
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
