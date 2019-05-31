@@ -1,2 +1,2 @@
 # Factorization
-Minecraft mod that all about automation and factories.
+Minecraft mod that is all about automation and factories.
