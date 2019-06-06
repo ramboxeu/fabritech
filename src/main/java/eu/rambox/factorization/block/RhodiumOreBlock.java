@@ -13,7 +13,7 @@ public class RhodiumOreBlock extends FactorizationBlock {
     }
 
     @Override
-    public String getName() {
+    public String getBlockName() {
         return "rhodium_ore";
     }
 }

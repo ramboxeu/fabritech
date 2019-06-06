@@ -24,8 +24,8 @@ public class FactorizationBlocks {
         Factorization.LOGGER.info("Registering {} blocks", BLOCKS.size());
 
         for(FactorizationBlock block : BLOCKS){
-            Registry.register(Registry.BLOCK, new Identifier(Factorization.MOD_ID, block.getName()), block);
-            Registry.register(Registry.ITEM, new Identifier(Factorization.MOD_ID, block.getName()), new BlockItem((Block) block, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
+            Registry.register(Registry.BLOCK, new Identifier(Factorization.MOD_ID, block.getBlockName()), block);
+            Registry.register(Registry.ITEM, new Identifier(Factorization.MOD_ID, block.getBlockName()), new BlockItem(block, new Item.Settings().group(Factorization.ITEM_GROUP)));
         }
     }
 
