@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "factorization",
-  "version": "${version}",
+  "version": "0.0.1",
 
   "name": "Factorization",
   "description": "Factorization is a mod adding tech things to Minecraft.",

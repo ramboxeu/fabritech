@@ -1,18 +1,19 @@
 package eu.rambox.factorization.block;
 
 import net.fabricmc.fabric.api.block.FabricBlockSettings;
+import net.fabricmc.fabric.api.tools.FabricToolTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 
-public class RubidiumOreBlock extends FactorizationBlock {
+public class RhodiumOreBlock extends FactorizationBlock {
 
-    public RubidiumOreBlock() {
-        super(FabricBlockSettings.of(Material.STONE).breakByTool(null, 3).build());
+    public RhodiumOreBlock() {
+        super(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 3).build());
         FactorizationBlocks.BLOCKS.add(this);
     }
 
     @Override
     public String getName() {
-        return "rubidiumore";
+        return "rhodium_ore";
     }
 }

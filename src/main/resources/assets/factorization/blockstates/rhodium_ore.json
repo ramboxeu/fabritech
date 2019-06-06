@@ -1,0 +1,7 @@
+{
+  "variants":{
+    "": {
+      "model": "factorization:block/rhodium_ore"
+    }
+  }
+}
